@@ -64,7 +64,7 @@ export default function Slide({
         left: `${
           offsetRadius === 0 ? 50 : 50 + (offsetFromCenter * 50) / offsetRadius
         }%`,
-        opacity: opacity === null ? distanceFactor * distanceFactor : opacity,
+        opacity: opacity === null ? distanceFactor * distanceFactor + 0.5: opacity,
       }}
       config={animationConfig}
     >
