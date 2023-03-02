@@ -12,7 +12,7 @@ export default class Example extends Component {
     goToSlideDelay: 200,
     autoPlay: true,
     inteval: 2,
-    opacity: 1,
+    opacity: 0.35,
   };
 
   slides: Slide[] = [
